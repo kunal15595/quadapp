@@ -47,8 +47,11 @@ public class Home extends Activity {
                         startActivity(intent);
                         break;
                     case 3:
-                        intent = new Intent(Home.this, FileChooserActivity.class);
-                        startActivityForResult(intent, REQUEST_CHOOSER);
+                        // intent = new Intent(Home.this, FileChooserActivity.class);
+                        // startActivityForResult(intent, REQUEST_CHOOSER);
+                        config_path="/sdcard/bluetooth/quad_app_config.xml";
+                        Data_store.set_attribute(Home.this, Data_store.CONFIG_FILE_PATH_SETTING, config_path);
+
                         break;
                     case 4:
                         intent = new Intent(Home.this, Commit.class);

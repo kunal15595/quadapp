@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GraphView/GraphView.iml" filepath="$PROJECT_DIR$/GraphView/GraphView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Quad-app.iml" filepath="$PROJECT_DIR$/Quad-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/aFileChooser/aFileChooser.iml" filepath="$PROJECT_DIR$/aFileChooser/aFileChooser.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quad_app.iml" filepath="$PROJECT_DIR$/quad_app.iml" />
     </modules>
   </component>
 </project>
